@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddDepartmentComponent } from './AALA/department/add-department/add-department.component';
-import { AddEmployeesComponent } from 'C:/Users/pc/Desktop/aalaPI/personalapp/aalaapp/src/app/AALA/modules/hr/employees/add-employees/add-employees.component';
+import { AddEmployeesComponent } from 'src/app/AALA/modules/hr/employees/add-employees/add-employees.component';
 import { HrComponent } from './AALA/modules/hr/hr.component';
 import { HomeComponent } from './temp/home/home.component';
 //import { EmployeComponent } from './AALA/employee/employe/employe.component';

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AddEmployeesComponent } from 'C:/Users/pc/Desktop/aalaPI/personalapp/aalaapp/src/app/AALA/modules/hr/employees/add-employees/add-employees.component';
-import { EmployeeService } from 'C:/Users/pc/Desktop/aalaPI/personalapp/aalaapp/src/app/AALA/service/employee.service';
+import { AddEmployeesComponent } from 'src/app/AALA/modules/hr/employees/add-employees/add-employees.component';
+import { EmployeeService } from 'src/app/AALA/service/employee.service';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -42,4 +42,3 @@ import { HrComponent } from '../hr.component';
     salary: number;
     
   }
-  

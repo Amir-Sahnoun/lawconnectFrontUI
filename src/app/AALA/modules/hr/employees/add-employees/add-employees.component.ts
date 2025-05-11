@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { EmployeeService } from 'C:/Users/pc/Desktop/aalaPI/personalapp/aalaapp/src/app/AALA/service/employee.service';
-import { DepartmentService } from 'C:/Users/pc/Desktop/aalaPI/personalapp/aalaapp/src/app/AALA/service/department.service';
+import { EmployeeService } from 'src/app/AALA/service/employee.service';
+import { DepartmentService } from 'src/app/AALA/service/department.service';
 import { EmployeesModule } from '../employees.module';
 
 @Component({
