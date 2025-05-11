@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: ng build --configuration production
+        run: npx ng build aalaapp --configuration production
 
       - name: Zip Angular dist output
         run: |
