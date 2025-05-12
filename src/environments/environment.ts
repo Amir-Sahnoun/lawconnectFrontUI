@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  backend_url: 'http://localhost:8081',
-    apiUrl: 'http://localhost:8089',
-    prefix: 'api'
+  backend_url: 'https://e796-74-220-27-36.ngrok-free.app/api',
+  apiUrl: 'https://e796-74-220-27-36.ngrok-free.app/api',
+  prefix: 'api'
 };
