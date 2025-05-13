@@ -16,7 +16,7 @@ export interface PresenceDto {
   providedIn: 'root'
 })
 export class EmployeeService {  
-  private apiUrl = 'http://localhost:8081/api'; 
+  private apiUrl = '${environment.apiUrl}/${environment.prefix}'; 
    constructor(private http: HttpClient) { }
 
   addEmployee(employee: EmployeesModule): Observable<EmployeesModule> {
