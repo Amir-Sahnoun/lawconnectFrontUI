@@ -7,7 +7,7 @@ import {environment} from'src/environments/environment';
   providedIn: 'root'
 })
 export class DepartmentService {
-  private apiUrl = '${environment.apiUrl}/${environment.prefix}';
+  private apiUrl = `${environment.apiUrl}/${environment.prefix}`;
   constructor(private httpClient: HttpClient) { }
 
   /*getListDepartments(): Observable<any> {
